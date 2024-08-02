@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9%;
+    font-family: system-ui, -apple-system;
+    background-color: hsl(39, 77%, 83%);
+}
+
+.mainDiv {
+    display: flex;
+    padding: 3px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.85);
+    height: 330px;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: blue;
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+#textbox {
+    height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    border-color: black;
+    border-radius: 8px;
+}
+
+label {
+    margin: 3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.radioDiv {
+    margin: 3px;
+}
+
+#submitBtn {
+    background-color: hsl(0, 100%, 50%);
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.15s; 
+}
+
+#submitBtn:hover {
+    background-color: hsl(0, 100%, 70%);
+} 
+
+#submitBtn:active {
+    background-color: hsl(0, 100%, 90%);
+} 
+
+#result {
+    margin-bottom: 60px;
+    font-size: 22px;
+    font-weight: 500;
+}
