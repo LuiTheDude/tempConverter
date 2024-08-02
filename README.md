@@ -1,2 +1,2 @@
 # tempConverter
-it converts
+it converts temperature units from fahrenheit to celsius and visa versa.
